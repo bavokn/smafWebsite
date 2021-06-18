@@ -1,0 +1,8 @@
+[submodule "smafWebsite/smaf-api"]
+	path = smafWebsite/smaf-api
+	url = git@github.com:vito-vanhecke/smaf-api.git
+	branch = dockerBackend
+[submodule "smafWebsite/smaf-frontend"]
+	path = smafWebsite/smaf-frontend
+	url = git@github.com:vito-vanhecke/smaf-frontend.git
+	branch = dockerFrontend
