@@ -6,7 +6,7 @@ services:
         build:
           context: smaf-frontend/frontend
           dockerfile: docker/Dockerfile
-        command: npm run start
+        command: npm run dev
         networks:
             my-network:
                 aliases:
@@ -21,7 +21,7 @@ services:
         build:
           context: smaf-api/api
           dockerfile: docker/Dockerfile
-        command: npm run start
+        command: npm run dev
         networks:
             my-network:
                 aliases:
