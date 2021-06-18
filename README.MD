@@ -5,6 +5,10 @@
 ```
 git submodule update --init --recursive
 ```
+update the code
+```
+git pull --recurse-submodules
+```
 ## start the servers 
 
 start & rebuild
