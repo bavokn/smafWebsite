@@ -1,7 +1,6 @@
 version: "3"
 
 services:
-<<<<<<< HEAD
   frontend:
     user: smaf
     build:
@@ -32,37 +31,5 @@ services:
     volumes:
       - ./smaf-api/api:/home/smaf/smafApi/api/app
     restart: always
-=======
-    frontend:
-        user: smaf
-        build:
-          context: smaf-frontend/frontend
-          dockerfile: docker/Dockerfile
-        command: npm run dev
-        networks:
-            my-network:
-                aliases:
-                    - smaf-frontend
-        ports: 
-            - "8081:3000"
-        volumes: 
-            - ./smaf-frontend/frontend:/home/smaf/smaf-frontend/frontend/app
-        restart: always
-    api:
-        user: smaf
-        build:
-          context: smaf-api/api
-          dockerfile: docker/Dockerfile
-        command: npm run dev
-        networks:
-            my-network:
-                aliases:
-                    - smaf-api
-        ports: 
-            - "8000:3000"
-        volumes: 
-            - ./smaf-api/api:/home/smaf/smafApi/api/app
-        restart: always
->>>>>>> 175dfedb88068655b99116896d770502d912088f
 networks:
   my-network:
