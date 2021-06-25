@@ -2,7 +2,7 @@ version: "3"
 
 services:
   frontend:
-    user: smaf
+    user: node
     build:
       context: smaf-frontend/frontend
       dockerfile: docker/Dockerfile
