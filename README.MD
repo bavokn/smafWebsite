@@ -34,20 +34,21 @@ docker-compose build
 - sass loader 
 - next-auth
 - headless CMS (strapi ? backend supports Heroku)
-    - WordPress Example (Demo)
-    - DatoCMS Example (Demo)
-    - TakeShape Example (Demo)
-    - Sanity Example (Demo)
-    - Prismic Example (Demo)
-    - Contentful Example (Demo)
-    - Strapi Example (Demo)
-    - Prepr Example (Demo)
-    - Agility CMS Example (Demo)
-    - Cosmic Example (Demo)
-    - ButterCMS Example (Demo)
-    - Storyblok Example (Demo)
-    - GraphCMS Example (Demo)
-    - Kontent Example (Demo)
+    - WordPress Example 
+    - DatoCMS Example 
+    - TakeShape Example 
+    - Sanity Example 
+    - Prismic Example 
+    - Contentful Example 
+    - Strapi Example 
+    - Prepr Example 
+    - Agility CMS Example 
+    - Cosmic Example 
+    - ButterCMS Example 
+    - Storyblok Example 
+    - GraphCMS Example 
+    - Kontent Example 
+    - Craftjs ( https://dev.to/mylesthedev/live-preview-with-craft-cms-next-js-3503 )
 - ...
 
 ## backend
